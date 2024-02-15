@@ -1,10 +1,15 @@
+import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom'
+import ComingSoon from './page/ComingSoon'
 import MainLayout from './page/MainLayout'
 
-function App() {
+const App = () => {
   return (
-    <>
-      <MainLayout />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route exact path="/" element={<Navigate to="/loading" />} />
+        <Route exact path="/loading" element={<ComingSoon />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
