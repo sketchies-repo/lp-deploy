@@ -2,7 +2,7 @@ export const SKETCHIES = [
   {
     id: 327,
     name: 'Fury',
-    picture: `https://bafybeigwca47olruxfj4ahq46n2tk7nzljrw6og663aepd7hbozk3oklsm.ipfs.nftstorage.link/327`,
+    picture: `https://bafybeigwca47olruxfj4ahq46n2tk7nzljrw6og663aepd7hbozk3oklsm.ipfs.nftstorage.link/`,
     owner: {
       wallet: '8NXVRKcQ68ko8PTB63ubC1J9xWMaWLApRHXQR6mywJsS',
       discordName: '',
@@ -12,7 +12,7 @@ export const SKETCHIES = [
   {
     id: 329,
     name: 'Sin Ly',
-    picture: `https://bafybeigwca47olruxfj4ahq46n2tk7nzljrw6og663aepd7hbozk3oklsm.ipfs.nftstorage.link/327`,
+    picture: `https://bafybeigwca47olruxfj4ahq46n2tk7nzljrw6og663aepd7hbozk3oklsm.ipfs.nftstorage.link/`,
     owner: {
       wallet: '7U38oZoUjQ2jcFdowSBuBH8gWhtUALwZSioGtYg9dH9z',
       discordName: '',
@@ -22,7 +22,7 @@ export const SKETCHIES = [
   {
     id: 324,
     name: 'Dusty',
-    picture: `https://bafybeigwca47olruxfj4ahq46n2tk7nzljrw6og663aepd7hbozk3oklsm.ipfs.nftstorage.link/327`,
+    picture: `https://bafybeigwca47olruxfj4ahq46n2tk7nzljrw6og663aepd7hbozk3oklsm.ipfs.nftstorage.link/`,
     owner: {
       wallet: '7U38oZoUjQ2jcFdowSBuBH8gWhtUALwZSioGtYg9dH9z',
       discordName: '',
@@ -32,7 +32,7 @@ export const SKETCHIES = [
   {
     id: 323,
     name: 'Sparky',
-    picture: `https://bafybeigwca47olruxfj4ahq46n2tk7nzljrw6og663aepd7hbozk3oklsm.ipfs.nftstorage.link/327`,
+    picture: `https://bafybeigwca47olruxfj4ahq46n2tk7nzljrw6og663aepd7hbozk3oklsm.ipfs.nftstorage.link/`,
     owner: {
       wallet: '3cuzXfhyd3T3WuXfw3br3R3rwpigacFwU9mXXV5LqQu2',
       discordName: '',
@@ -42,7 +42,7 @@ export const SKETCHIES = [
   {
     id: 330,
     name: 'Jolly Roger',
-    picture: `https://bafybeigwca47olruxfj4ahq46n2tk7nzljrw6og663aepd7hbozk3oklsm.ipfs.nftstorage.link/327`,
+    picture: `https://bafybeigwca47olruxfj4ahq46n2tk7nzljrw6og663aepd7hbozk3oklsm.ipfs.nftstorage.link/`,
     owner: {
       wallet: '3cuzXfhyd3T3WuXfw3br3R3rwpigacFwU9mXXV5LqQu2',
       discordName: '',
@@ -52,7 +52,7 @@ export const SKETCHIES = [
   {
     id: 326,
     name: 'Goldy',
-    picture: `https://bafybeigwca47olruxfj4ahq46n2tk7nzljrw6og663aepd7hbozk3oklsm.ipfs.nftstorage.link/327`,
+    picture: `https://bafybeigwca47olruxfj4ahq46n2tk7nzljrw6og663aepd7hbozk3oklsm.ipfs.nftstorage.link/`,
     owner: {
       wallet: '3cuzXfhyd3T3WuXfw3br3R3rwpigacFwU9mXXV5LqQu2',
       discordName: '',
@@ -62,7 +62,7 @@ export const SKETCHIES = [
   {
     id: 328,
     name: 'Gemmy',
-    picture: `https://bafybeigwca47olruxfj4ahq46n2tk7nzljrw6og663aepd7hbozk3oklsm.ipfs.nftstorage.link/327`,
+    picture: `https://bafybeigwca47olruxfj4ahq46n2tk7nzljrw6og663aepd7hbozk3oklsm.ipfs.nftstorage.link/`,
     owner: {
       wallet: '3cuzXfhyd3T3WuXfw3br3R3rwpigacFwU9mXXV5LqQu2',
       discordName: '',
@@ -72,7 +72,7 @@ export const SKETCHIES = [
   {
     id: 325,
     name: 'Error0101',
-    picture: `https://bafybeigwca47olruxfj4ahq46n2tk7nzljrw6og663aepd7hbozk3oklsm.ipfs.nftstorage.link/327`,
+    picture: `https://bafybeigwca47olruxfj4ahq46n2tk7nzljrw6og663aepd7hbozk3oklsm.ipfs.nftstorage.link/`,
     owner: {
       wallet: '5Vp2duyhRiuRRsJqaUDxTYaM4FeJ6v8tJkRa7ZQozxbv',
       discordName: '',
@@ -82,7 +82,7 @@ export const SKETCHIES = [
   {
     id: 322,
     name: 'Hedasy',
-    picture: `https://bafybeigwca47olruxfj4ahq46n2tk7nzljrw6og663aepd7hbozk3oklsm.ipfs.nftstorage.link/327`,
+    picture: `https://bafybeigwca47olruxfj4ahq46n2tk7nzljrw6og663aepd7hbozk3oklsm.ipfs.nftstorage.link/`,
     owner: {
       wallet: '5oJadjc872rsV2bEG5PqY6r6Vrm5THWVSQhEj3Qt4o32',
       discordName: '',
@@ -92,7 +92,7 @@ export const SKETCHIES = [
   {
     id: 332,
     name: 'Zeedy',
-    picture: `https://bafybeigwca47olruxfj4ahq46n2tk7nzljrw6og663aepd7hbozk3oklsm.ipfs.nftstorage.link/327`,
+    picture: `https://bafybeigwca47olruxfj4ahq46n2tk7nzljrw6og663aepd7hbozk3oklsm.ipfs.nftstorage.link/`,
     owner: {
       wallet: '3cuzXfhyd3T3WuXfw3br3R3rwpigacFwU9mXXV5LqQu2',
       discordName: '',
@@ -102,7 +102,7 @@ export const SKETCHIES = [
   {
     id: 321,
     name: 'Custom',
-    picture: `https://bafybeigwca47olruxfj4ahq46n2tk7nzljrw6og663aepd7hbozk3oklsm.ipfs.nftstorage.link/327`,
+    picture: `https://bafybeigwca47olruxfj4ahq46n2tk7nzljrw6og663aepd7hbozk3oklsm.ipfs.nftstorage.link/`,
     owner: {
       wallet: '8NXVRKcQ68ko8PTB63ubC1J9xWMaWLApRHXQR6mywJsS',
       discordName: '',
@@ -112,7 +112,7 @@ export const SKETCHIES = [
   {
     id: 331,
     name: 'Skelly',
-    picture: `https://bafybeigwca47olruxfj4ahq46n2tk7nzljrw6og663aepd7hbozk3oklsm.ipfs.nftstorage.link/327`,
+    picture: `https://bafybeigwca47olruxfj4ahq46n2tk7nzljrw6og663aepd7hbozk3oklsm.ipfs.nftstorage.link/`,
     owner: {
       wallet: '3cuzXfhyd3T3WuXfw3br3R3rwpigacFwU9mXXV5LqQu2',
       discordName: '',
