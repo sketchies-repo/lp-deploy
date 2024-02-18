@@ -14,19 +14,19 @@ const SocialNetworks = () => {
   return (
     <>
       <div className="flex justify-center items-center gap-5 max-md:gap-3">
-        <a href={linkTwitter}>
+        <a href={linkTwitter} target="_blank">
           <img src={TwitterLogo} alt="Lien vers notre compte X" className="w-16 max-md:max-w-12" />
         </a>
-        <a href={linkDiscord}>
+        <a href={linkDiscord} target="_blank">
           <img src={DiscordLogo} alt="Lien vers notre Discord" className="w-16 max-md:max-w-12" />
         </a>
-        <a href={linkTensor}>
+        <a href={linkTensor} target="_blank">
           <img src={TensorLogo} alt="Lien vers les Sketchies sur Tensor" className="w-16 max-md:max-w-12" />
         </a>
-        <a href={linkME}>
+        <a href={linkME} target="_blank">
           <img src={MELogo} alt="Lien vers les Sketchies sur Magic Eden" className="w-16 max-md:max-w-12" />
         </a>
-        <a href={linkExchange}>
+        <a href={linkExchange} target="_blank">
           <img src={ExchangeLogo} alt="Lien vers notre Exchange.art" className="w-16 max-md:max-w-12" />
         </a>
       </div>

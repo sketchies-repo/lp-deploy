@@ -15,7 +15,7 @@ const SketchieCard = ({ sketchie }) => {
       <img
         src={sketchie.picture + sketchie.id}
         alt={`Image de ${sketchie.name}`}
-        className="rounded-2xl max-md:rounded-lg"
+        className={`rounded-2xl max-md:rounded-lg ${showName ? 'opacity-none' : ''}`}
       />
     </div>
   )

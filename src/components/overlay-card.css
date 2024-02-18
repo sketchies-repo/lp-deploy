@@ -16,6 +16,7 @@
 .overlay p {
   color: #fff;
   font-size: 1rem;
+  padding: 20px;
   text-shadow: 0px 2px 0px #000;
   text-transform: uppercase;
 }
