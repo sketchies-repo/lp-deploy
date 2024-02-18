@@ -20,6 +20,15 @@
   text-transform: uppercase;
 }
 
+@media all and (max-width: 768px) {
+  .overlay {
+    border-radius: 1rem;
+  }
+  .overlay p {
+    font-size: 0.6rem;
+  }
+}
+
 .overlay p.black {
   color: #000;
   text-shadow: none;

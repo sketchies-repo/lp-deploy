@@ -10,9 +10,13 @@ const SketchieCard = ({ sketchie }) => {
   }
 
   return (
-    <div className="container rounded-3xl relative" onClick={handleClick}>
+    <div className="container rounded-3xl max-md:rounded-2xl relative" onClick={handleClick}>
       <Overlay sketchie={sketchie} showName={showName} />
-      <img src={sketchie.picture + sketchie.id} alt={`Image de ${sketchie.name}`} className="rounded-3xl" />
+      <img
+        src={sketchie.picture + sketchie.id}
+        alt={`Image de ${sketchie.name}`}
+        className="rounded-3xl max-md:rounded-2xl"
+      />
     </div>
   )
 }

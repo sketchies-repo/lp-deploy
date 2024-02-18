@@ -8,7 +8,7 @@ const Overlay = ({ sketchie, showName }) => {
 
   return (
     <div className={`overlay ${showName ? 'fade-in' : ''}`} style={{ backgroundColor: sketchie.background }}>
-      <p className={`${isWhite ? 'black' : ''}`}>{sketchie.name}</p>
+      <p className={`text-center ${isWhite ? 'black' : ''}`}>{sketchie.name}</p>
     </div>
   )
 }
