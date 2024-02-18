@@ -8,7 +8,7 @@ import SocialNetworks from '../components/social-networks'
 const MainLayout = () => {
   return (
     <>
-      <div className="max-w-screen-xl mx-auto max-2xl:px-5">
+      <div className="max-w-3xl mx-auto max-2xl:px-5">
         <div className="header w-full flex justify-center p-5 py-20">
           <a className="w-3/4 max-w-4xl	" href="/">
             <img src={sketchiesLogo} alt="Sketchies Logo"></img>
@@ -19,7 +19,7 @@ const MainLayout = () => {
         <OneOneDescription />
         <SocialNetworks />
         <div className="footer flex justify-center p-5 pt-20">
-          <p className="text-white">© 2024 Sketchies</p>
+          <p className="text-white text-xs">© 2024 Sketchies</p>
         </div>
       </div>
     </>

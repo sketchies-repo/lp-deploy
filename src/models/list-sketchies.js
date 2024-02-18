@@ -56,7 +56,7 @@ export const SKETCHIES = [
   },
   {
     id: 325,
-    name: 'Error0101',
+    name: 'Error01',
     picture: 'https://bafybeigwca47olruxfj4ahq46n2tk7nzljrw6og663aepd7hbozk3oklsm.ipfs.nftstorage.link/',
     background: '#282923',
     owner: {
