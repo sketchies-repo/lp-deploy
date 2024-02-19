@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Overlay from './overlay-card'
+import OverlayCard from './OverlayCard'
 import './sketchie-card.css'
 
 const SketchieCard = ({ sketchie }) => {
@@ -19,7 +19,7 @@ const SketchieCard = ({ sketchie }) => {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <Overlay sketchie={sketchie} showName={showName} />
+      <OverlayCard sketchie={sketchie} showName={showName} />
       <img
         src={sketchie.picture + sketchie.id}
         alt={`Image de ${sketchie.name}`}

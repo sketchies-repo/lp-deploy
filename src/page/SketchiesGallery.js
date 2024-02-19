@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import SketchieCard from '../components/sketchie-card'
-import SKETCHIES from '../models/list-sketchies'
+import SketchieCard from '../components/SketchieCard'
+import SKETCHIES from '../models/ListSketchies'
 import './sketchies-gallery.css'
 
 const SketchiesGallery = () => {

@@ -1,11 +1,8 @@
 import React from 'react'
 import sketchiesLogo from '../assets/Logo_Header.png'
-import ProjectDescription from '../components/project-description'
-import SketchiesGallery from './sketchies-gallery'
-import OneOneDescription from '../components/one-description'
-import SocialNetworks from '../components/social-networks'
+import SocialNetworks from '../components/SocialNetworks'
 
-const MainLayout = () => {
+const MainLayout = ({ children }) => {
   return (
     <>
       <div className="max-w-3xl mx-auto max-2xl:px-5">
@@ -14,9 +11,7 @@ const MainLayout = () => {
             <img src={sketchiesLogo} alt="Sketchies Logo"></img>
           </a>
         </div>
-        <ProjectDescription />
-        <SketchiesGallery />
-        <OneOneDescription />
+        <main>{children}</main>
         <SocialNetworks />
         <div className="footer flex justify-center p-5 pt-20 max-md:pt-10">
           <p className="text-white text-xs">© 2024 Sketchies</p>
