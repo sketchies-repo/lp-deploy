@@ -1,4 +1,4 @@
-const OneOneDescription = () => {
+export default function OneOneDescription() {
   return (
     <>
       <div>
@@ -11,4 +11,3 @@ const OneOneDescription = () => {
   )
 }
 
-export default OneOneDescription

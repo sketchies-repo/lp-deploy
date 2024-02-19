@@ -1,8 +1,8 @@
-import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import MainLayout from './page/MainLayout'
 import HomePage from './page/HomePage'
 
-const App = () => {
+export default function App() {
   return (
     <BrowserRouter>
       <MainLayout>
@@ -13,5 +13,3 @@ const App = () => {
     </BrowserRouter>
   )
 }
-
-export default App

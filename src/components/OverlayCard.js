@@ -1,7 +1,7 @@
 import React from 'react'
 import './overlay-card.css'
 
-const OverlayCard = ({ sketchie, showName }) => {
+export default function OverlayCard({ sketchie, showName }) {
   const isWhite = sketchie.background === '#FFFFFF'
 
   return (
@@ -11,4 +11,3 @@ const OverlayCard = ({ sketchie, showName }) => {
   )
 }
 
-export default OverlayCard

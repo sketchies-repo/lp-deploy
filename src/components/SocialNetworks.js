@@ -10,28 +10,26 @@ const linkME = 'https://magiceden.io/marketplace/sketchies'
 const linkTensor = 'https://www.tensor.trade/trade/sketchies'
 const linkExchange = 'https://exchange.art/sketchies/nfts'
 
-const SocialNetworks = () => {
+export default function SocialNetworks() {
   return (
     <>
       <div className="flex justify-center items-center gap-5 max-md:gap-3">
-        <a href={linkTwitter} target="_blank">
+        <a href={linkTwitter} target="_blank" rel="noreferrer">
           <img src={TwitterLogo} alt="Lien vers notre compte X" className="w-16 max-md:max-w-12" />
         </a>
-        <a href={linkDiscord} target="_blank">
+        <a href={linkDiscord} target="_blank" rel="noreferrer">
           <img src={DiscordLogo} alt="Lien vers notre Discord" className="w-16 max-md:max-w-12" />
         </a>
-        <a href={linkTensor} target="_blank">
+        <a href={linkTensor} target="_blank" rel="noreferrer">
           <img src={TensorLogo} alt="Lien vers les Sketchies sur Tensor" className="w-16 max-md:max-w-12" />
         </a>
-        <a href={linkME} target="_blank">
+        <a href={linkME} target="_blank" rel="noreferrer">
           <img src={MELogo} alt="Lien vers les Sketchies sur Magic Eden" className="w-16 max-md:max-w-12" />
         </a>
-        <a href={linkExchange} target="_blank">
+        <a href={linkExchange} target="_blank" rel="noreferrer">
           <img src={ExchangeLogo} alt="Lien vers notre Exchange.art" className="w-16 max-md:max-w-12" />
         </a>
       </div>
     </>
   )
 }
-
-export default SocialNetworks

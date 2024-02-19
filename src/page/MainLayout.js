@@ -2,7 +2,7 @@ import React from 'react'
 import sketchiesLogo from '../assets/Logo_Header.png'
 import SocialNetworks from '../components/SocialNetworks'
 
-const MainLayout = ({ children }) => {
+export default function MainLayout({ children }) {
   return (
     <>
       <div className="max-w-3xl mx-auto max-2xl:px-5">
@@ -21,4 +21,3 @@ const MainLayout = ({ children }) => {
   )
 }
 
-export default MainLayout

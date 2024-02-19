@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import OverlayCard from './OverlayCard'
 import './sketchie-card.css'
 
-const SketchieCard = ({ sketchie }) => {
+export default function SketchieCard({ sketchie }) {
   const [showName, setShowName] = useState(false)
 
   const handleMouseEnter = () => {
@@ -22,11 +22,9 @@ const SketchieCard = ({ sketchie }) => {
       <OverlayCard sketchie={sketchie} showName={showName} />
       <img
         src={sketchie.picture + sketchie.id}
-        alt={`Image de ${sketchie.name}`}
+        alt={`NFT de ${sketchie.name}`}
         className={`rounded-2xl max-md:rounded-lg ${showName ? 'opacity-none' : ''}`}
       />
     </div>
   )
 }
-
-export default SketchieCard

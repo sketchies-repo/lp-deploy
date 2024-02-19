@@ -3,7 +3,7 @@ import SketchieCard from '../components/SketchieCard'
 import SKETCHIES from '../models/ListSketchies'
 import './sketchies-gallery.css'
 
-const SketchiesGallery = () => {
+export default function SketchiesGallery() {
   const [sketchies, setSketchies] = useState([])
 
   useEffect(() => {
@@ -23,5 +23,3 @@ const SketchiesGallery = () => {
     </>
   )
 }
-
-export default SketchiesGallery

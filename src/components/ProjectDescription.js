@@ -1,4 +1,4 @@
-const ProjectDescription = () => {
+export default function ProjectDescription() {
   return (
     <>
       <p className="text-description text-white max-w-4xl mx-auto px-4 text-xs leading-6 text-center max-md:tracking-tighter">
@@ -9,5 +9,3 @@ const ProjectDescription = () => {
     </>
   )
 }
-
-export default ProjectDescription
