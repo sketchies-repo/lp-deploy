@@ -5,12 +5,20 @@ import './sketchie-card.css'
 const SketchieCard = ({ sketchie }) => {
   const [showName, setShowName] = useState(false)
 
-  const handleClick = () => {
-    setShowName(!showName)
+  const handleMouseEnter = () => {
+    setShowName(true)
+  }
+
+  const handleMouseLeave = () => {
+    setShowName(false)
   }
 
   return (
-    <div className="container rounded-2xl max-md:rounded-lg relative" onClick={handleClick}>
+    <div
+      className="container rounded-2xl max-md:rounded-lg relative"
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+    >
       <Overlay sketchie={sketchie} showName={showName} />
       <img
         src={sketchie.picture + sketchie.id}
